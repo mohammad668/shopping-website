@@ -223,9 +223,9 @@ padding: 2px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .comment,.header-two,body{
-    max-width: 350px;
+    max-width: 400px;
   }
   .comment{
     margin: 0 auto;
@@ -239,7 +239,7 @@ padding: 2px;
 }
 
 .doinom,.comment-top{
-  max-width: 350px;
+  max-width: 400px;
 
   flex-direction: column;
   padding: 0;
