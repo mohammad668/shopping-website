@@ -146,9 +146,9 @@ padding: 2px;
     flex-direction: column-reverse;
     width: 570px;
   } 
-  .right-input{
+  /* .right-input{
    margin-left: 350px;
-  }
+  } */
   .right {
     justify-content: center;
     flex-direction: column;
@@ -162,10 +162,7 @@ padding: 2px;
   .comment {
     width: 500px;
   }
-  .molar {
-    margin: 0;
-    max-width: 100%;
-  }
+ 
   .comment-title {
     font-size: 13px;
   }
@@ -225,3 +222,50 @@ padding: 2px;
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .comment,.header-two,.body{
+    max-width: 360px;
+  }
+  
+ 
+.x,.r{
+  display: none;
+}
+
+.doinom,.comment-top{
+  max-width: 340px;
+
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+
+.right-input__main{
+  padding-left: 90px;
+  margin-left: 180px;
+}
+.right-input {
+  padding-right: 0;
+}
+.right-logo{
+  margin-left: 150px;
+}
+.banner-img{
+max-width: 100%;
+height: 110px;
+}
+.main-top__grid{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.comment-title{
+  margin-bottom: 14px;
+ 
+}
+
+
+
+
+ }
