@@ -223,34 +223,42 @@ padding: 2px;
   }
 }
 
-@media screen and (max-width: 460px) {
-  .comment,.header-two,.body{
-    max-width: 360px;
+@media screen and (max-width: 360px) {
+  .comment,.header-two,body{
+    max-width: 350px;
   }
-  
+  .comment{
+    margin: 0 auto;
+  }
+  .right{
+    margin: 0;
+  }
  
 .x,.r{
   display: none;
 }
 
 .doinom,.comment-top{
-  max-width: 340px;
+  max-width: 350px;
 
   flex-direction: column;
   padding: 0;
   margin: 0;
 }
-
+.menu,.para{
+  font-size: 12px;
+}
 
 .right-input__main{
-  padding-left: 90px;
-  margin-left: 180px;
+  padding-left: 20px;
+  margin-left: 0;
 }
 .right-input {
+margin-left: 70px;
   padding-right: 0;
 }
 .right-logo{
-  margin-left: 150px;
+  margin-left: 20px;
 }
 .banner-img{
 max-width: 100%;
@@ -264,8 +272,7 @@ height: 110px;
   margin-bottom: 14px;
  
 }
-
-
-
-
+.main-for__main,.main-four__title{
+  display: none;
+}
  }
